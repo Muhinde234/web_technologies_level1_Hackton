@@ -1,0 +1,19 @@
+.content{
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+    
+  
+}
+ .content a
+{
+    text-decoration:none;
+    margin-right: 80px;
+    
+}
+
+body{
+    background-image: url(onemilliondevs.webp);
+    background-repeat: no repeat;
+    background-size: cover;
+}

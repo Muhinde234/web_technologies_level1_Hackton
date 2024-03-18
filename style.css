@@ -10,7 +10,7 @@ header{
     width: auto;
     height: 150px;
     clip-path: polygon(0 0,100% 0 ,100% 100%,73% 94%,0 100%) ;
-    position: -webkit-sticky; /* For Safari */
+    position: -webkit-sticky; 
     position: sticky;
     top: 0;
 

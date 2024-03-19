@@ -1,17 +1,17 @@
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     
     -webkit-font-smoothing:antialiased ;
 }
 
 header{
     background-color: rgb(2, 77, 75);
-    width: auto;
+    width: 100%;
     height: 150px;
     clip-path: polygon(0 0,100% 0 ,100% 100%,73% 94%,0 100%) ;
     position: -webkit-sticky; 
-    position: sticky;
+    position: fixed;
     top: 0;
 
 }
@@ -29,15 +29,26 @@ header nav  a:hover{
     color: aqua;
 }
 .container{
-    padding: 0.5rem;
-
+    padding: 4px;
 }
+
 body
 {
     background-color: rgb(255,255,255)
-
-
 }
+
+.hero {
+    margin-top: 152px;
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+}
+
+.hero .hero-left {
+    flex: 1;
+}
+
+
 .hero h1
 {
     text-transform: capitalize;
@@ -45,8 +56,8 @@ body
     font-size: 2rem;
    
     line-height:1.2 ;
-margin: 5rem;
-padding: 3rem;
+    margin: 5rem;
+    padding: 3rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
@@ -58,24 +69,21 @@ padding: 3rem;
 p
 {
     color:brown;
-text-align: left;
+    text-align: left;
     font-size:15px ;
     margin: 10px;
     padding-top: 10px;
     line-height:1.2 ;
 }
-.herosection
-{
-display: flex;
-justify-content: space-between;
 
 
-}
 .image
 {
-    padding-left: 10rem;
-    margin-top:-18rem;
-    border:8px solid green;
+
+    /* margin-top:18rem; */
+   border: 8px solid green;
+    /* margin-right: 0.5rem; */
+    
 
 }
 .text{
@@ -83,5 +91,26 @@ padding-left: 15rem;
 margin: -7rem;
 }
 
+.footer
+{
+    background-color: rgb(2, 77, 75); ;
+}
+.services
+{
+     padding:2rem ;
+    text-align: center;
+    font-size:40px;
+    font-weight:20px;
+    color: rgb(2, 77, 75);
+
+}
 
 
+
+.form
+{
+    padding:2rem ;
+    text-align: center;
+    font-size: larger;
+
+}
